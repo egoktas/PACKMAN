@@ -34,7 +34,7 @@ PACKMAN installation:
 	to the directory where pin.exe is located
 
 ==================
-== PACKMAN usage:  ==
+PACKMAN usage:
 ==================
 - Visual Studio Command Prompt must be used
 - Working directory of the prompt has to be set to the "src" directory
