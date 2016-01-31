@@ -1,0 +1,234 @@
+Pin 2.13 kit 61147
+ Instrumenting PE file: C:\Users\pmat\Desktop\workfolder\exe\helloworld_simple_packed.exe
+ Loaded PE file at [0x01280000..0x012abfff](0x0002c000)
+ Its Entry Point is 0x012aa830
+
+ EXEMEMORY   :: insert memory chunk [0x01280000..0x012abfff](0x0002c000) 
+ DLLMGMT     :: load at [0x75390000..0x753d9fff] C:\Windows\system32\KERNELBASE.dll
+ DLLMGMT     :: load at [0x76ee0000..0x76fb3fff] C:\Windows\system32\kernel32.dll
+ DLLMGMT     :: load at [0x771c0000..0x772fbfff] C:\Windows\SYSTEM32\ntdll.dll
+ [T:0|L:1] THREADMGMT  :: new thread with id 0 started; new #threads is 1
+ [T:0|L:1] DLLMGMT     :: load at [0x6c490000..0x6c546fff] C:\Windows\system32\MSVCP100D.dll
+ [T:0|L:1] DLLMGMT     :: load at [0x6c310000..0x6c481fff] C:\Windows\system32\MSVCR100D.dll
+ [T:0|L:1] LIBCALL     :: @0x012aa91f call dword ptr [esi+0x2a208]=[0x012ab208]=0x76f32864 kernel32.dll::LoadLibraryA
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa91f call dword ptr [esi+0x2a208]=[0x012ab208]=0x76f32864 kernel32.dll::LoadLibraryA
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa91f call dword ptr [esi+0x2a208]=[0x012ab208]=0x76f32864 kernel32.dll::LoadLibraryA
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa934 call dword ptr [esi+0x2a20c]=[0x012ab20c]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x012aa993 call ebp=0x76f250ab kernel32.dll::VirtualProtect
+ [T:0|L:1] LIBCALL     :: @0x012aa9a8 call ebp=0x76f250ab kernel32.dll::VirtualProtect
+ [T:0|L:1] *NEWLEVEL*  :: a potential new level detected
+ [T:0|L:1] *NEWLEVEL*  :: #1 executed a written instruction @0x012913c0
+ [T:0|L:1] *NEWLEVEL*  :: #2 executed a written instruction @0x01298620
+ [T:0|L:1] *NEWLEVEL*  :: #3 executed a written instruction @0x01298622
+ [T:0|L:1] *NEWLEVEL*  :: #4 executed a written instruction @0x01298623
+ [T:0|L:1] *NEWLEVEL*  :: #5 executed a written instruction @0x01298625
+ [T:0|L:2] *NEWLEVEL*  :: detected a new level! its entry point is 0x012913c0
+ [T:0|L:2] *NEWLEVEL*  :: instruction that jumped to the new level is at 0x012aa9b9
+ [T:0|L:2] *NEWLEVEL*  :: new level is in memory chunk [0x01280000..0x012abfff](0x0002c000) and has a PE file header
+ [T:0|L:2] *NEWLEVEL*  :: dumped new level to file C:\Users\pmat\Desktop\workfolder\logs\pmat\2014-04-22_16-32_helloworld_simple_packed\dump_level_2_procID_0_threadID_0._exe_
+ [T:0|L:2] LIBCALL     :: @0x01299a75 call dword ptr [0x12a43e4]=0x76f2fe44 kernel32.dll::GetSystemTimeAsFileTime
+ [T:0|L:2] LIBCALL     :: @0x01299a8a call dword ptr [0x12a43e0]=0x76f30d23 kernel32.dll::GetCurrentProcessId
+ [T:0|L:2] LIBCALL     :: @0x01299a96 call dword ptr [0x12a43dc]=0x76f2f212 kernel32.dll::GetCurrentThreadId
+ [T:0|L:2] LIBCALL     :: @0x01299aa2 call dword ptr [0x12a43d8]=0x76f2ef76 kernel32.dll::GetTickCount
+ [T:0|L:2] LIBCALL     :: @0x01299ab2 call dword ptr [0x12a43d4]=0x76f2f2a7 kernel32.dll::QueryPerformanceCounter
+ [T:0|L:2] LIBCALL     :: @0x01298686 call dword ptr [0x12a43a0]=0x76f3c41a kernel32.dll::HeapSetInformation
+ [T:0|L:2] LIBCALL     :: @0x012986b7 call dword ptr [0x12a439c]=0x76f2f23c kernel32.dll::InterlockedCompareExchange
+ [T:0|L:2] LIBCALL     :: @0x01299dec jmp dword ptr [0x12a45e0]=0x6c3586a0 MSVCR100D.dll::_initterm_e
+ [T:0|L:2] LIBCALL     :: @0x01298511 call dword ptr [0x12a45b8]=0x6c355150 MSVCR100D.dll::__set_app_type
+ [T:0|L:2] LIBCALL     :: @0x0129851c call dword ptr [0x12a4400]=0x7722324c ntdll.dll::RtlEncodePointer
+ [T:0|L:2] LIBCALL     :: @0x01299526 jmp dword ptr [0x12a45a4]=0x6c430670 MSVCR100D.dll::_CRT_RTC_INITW
+ [T:0|L:2] LIBCALL     :: @0x0129a438 jmp dword ptr [0x12a4600]=0x6c441de0 MSVCR100D.dll::_controlfp_s
+ [T:0|L:2] LIBCALL     :: @0x012998ea call dword ptr [0x12a43d0]=0x76f33142 kernel32.dll::SetUnhandledExceptionFilter
+ [T:0|L:2] LIBCALL     :: @0x01299de6 jmp dword ptr [0x12a45dc]=0x6c358670 MSVCR100D.dll::_initterm
+ [T:0|L:2] LIBCALL     :: @0x01298a18 call dword ptr [0x12a43a4]=0x7721f020 ntdll.dll::RtlDecodePointer
+ [T:0|L:2] LIBCALL     :: @0x01298a2b call dword ptr [0x12a45f0]=0x6c429150 MSVCR100D.dll::_onexit
+ [T:0|L:2] LIBCALL     :: @0x012985e7 call dword ptr [0x12a45c0]=0x6c358d90 MSVCR100D.dll::__getmainargs
+ [T:0|L:2] LIBCALL     :: @0x01298a18 call dword ptr [0x12a43a4]=0x7721f020 ntdll.dll::RtlDecodePointer
+ [T:0|L:2] LIBCALL     :: @0x01298a2b call dword ptr [0x12a45f0]=0x6c429150 MSVCR100D.dll::_onexit
+ [T:0|L:2] LIBCALL     :: @0x012987a1 call dword ptr [0x12a4394]=0x76f2f25e kernel32.dll::InterlockedExchange
+ [T:0|L:2] LIBCALL     :: @0x012987cf call dword ptr [0x12a45d8]=0x6c428ed0 MSVCR100D.dll::_CrtSetCheckCount
+ [T:0|L:2] LIBCALL     :: @0x01298362 jmp dword ptr [0x12a4670]=0x6c38d510 MSVCR100D.dll::strlen
+ [T:0|L:2] LIBCALL     :: @0x01291d1b call dword ptr [0x12a4510]=0x6c49fec0 MSVCP100D.dll::?width@ios_base@std@@QBE_JXZ
+ [T:0|L:2] LIBCALL     :: @0x0129264c call dword ptr [0x12a451c]=0x6c4a19b0 MSVCP100D.dll::?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ
+ [T:0|L:2] LIBCALL     :: @0x0129266e call dword ptr [0x12a451c]=0x6c4a19b0 MSVCP100D.dll::?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ
+ [T:0|L:2] LIBCALL     :: @0x01292694 call eax=0x6c4a5710 MSVCP100D.dll::?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
+ [T:0|L:2] LIBCALL     :: @0x012923f4 call dword ptr [0x12a4504]=0x6c49fc20 MSVCP100D.dll::?good@ios_base@std@@QBE_NXZ
+ [T:0|L:2] LIBCALL     :: @0x01292417 call dword ptr [0x12a4508]=0x6c4a3870 MSVCP100D.dll::?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ
+ [T:0|L:2] LIBCALL     :: @0x01292464 call dword ptr [0x12a4504]=0x6c49fc20 MSVCP100D.dll::?good@ios_base@std@@QBE_NXZ
+ [T:0|L:2] LIBCALL     :: @0x01291e1d call dword ptr [0x12a4514]=0x6c49fd40 MSVCP100D.dll::?flags@ios_base@std@@QBEHXZ
+ [T:0|L:2] LIBCALL     :: @0x01291f44 call dword ptr [0x12a451c]=0x6c4a19b0 MSVCP100D.dll::?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ
+ [T:0|L:2] LIBCALL     :: @0x01291f6b call dword ptr [0x12a4524]=0x6c4aa910 MSVCP100D.dll::?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z
+ [T:0|L:2] LIBCALL     :: @0x012920ab call dword ptr [0x12a4528]=0x6c49fee0 MSVCP100D.dll::?width@ios_base@std@@QAE_J_J@Z
+ [T:0|L:2] LIBCALL     :: @0x01292101 call dword ptr [0x12a452c]=0x6c4a1970 MSVCP100D.dll::?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z
+ [T:0|L:2] LIBCALL     :: @0x0129253b call dword ptr [0x12a44fc]=0x6c4db7d0 MSVCP100D.dll::?uncaught_exception@std@@YA_NXZ
+ [T:0|L:2] LIBCALL     :: @0x01292556 call dword ptr [0x12a4500]=0x6c4a37e0 MSVCP100D.dll::?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ
+ [T:0|L:2] LIBCALL     :: @0x01292714 call dword ptr [0x12a451c]=0x6c4a19b0 MSVCP100D.dll::?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ
+ [T:0|L:2] LIBCALL     :: @0x01292736 call dword ptr [0x12a451c]=0x6c4a19b0 MSVCP100D.dll::?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ
+ [T:0|L:2] LIBCALL     :: @0x0129275c call eax=0x6c4a5740 MSVCP100D.dll::?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
+ [T:0|L:2] LIBCALL     :: @0x01291c4c call dword ptr [0x12a44f8]=0x6c4bbba0 MSVCP100D.dll::??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
+ [T:0|L:2] LIBCALL     :: @0x01291c60 call dword ptr [0x12a4678]=0x6c36b6a0 MSVCR100D.dll::system
+ [T:0|L:2] DLLMGMT     :: load at [0x75210000..0x7525afff] C:\Windows\system32\apphelp.dll
+ [T:0|L:2] CHILDPROC   :: started app C:\Windows\system32\cmd.exe with process id 3788
+ [T:0|L:2] LIBCALL     :: @0x01298816 call dword ptr [0x12a45d0]=0x6c3580a0 MSVCR100D.dll::exit
+ [T:0|L:2] LIBCALL     :: @0x01297fac call dword ptr [0x12a4468]=0x6c4f2350 MSVCP100D.dll::??0_Lockit@std@@QAE@H@Z
+ [T:0|L:2] LIBCALL     :: @0x01297fed call dword ptr [0x12a4464]=0x6c4f2390 MSVCP100D.dll::??1_Lockit@std@@QAE@XZ
+ [T:0|L:2] LIBCALL     :: @0x01299526 jmp dword ptr [0x12a45a4]=0x6c430670 MSVCR100D.dll::_CRT_RTC_INITW
+ [T:0|L:2] LIBCALL     :: @0x01299526 jmp dword ptr [0x12a45a4]=0x6c430670 MSVCR100D.dll::_CRT_RTC_INITW
+ [T:0|L:2] THREADMGMT  :: thread with id 0 stopped; new #threads is 1
+ DLLMGMT     :: remove at [0x75390000..0x753d9fff] C:\Windows\system32\KERNELBASE.dll
+ DLLMGMT     :: remove at [0x76ee0000..0x76fb3fff] C:\Windows\system32\kernel32.dll
+ DLLMGMT     :: remove at [0x771c0000..0x772fbfff] C:\Windows\SYSTEM32\ntdll.dll
+ DLLMGMT     :: remove at [0x6c490000..0x6c546fff] C:\Windows\system32\MSVCP100D.dll
+ DLLMGMT     :: remove at [0x6c310000..0x6c481fff] C:\Windows\system32\MSVCR100D.dll
+ DLLMGMT     :: remove at [0x75210000..0x7525afff] C:\Windows\system32\apphelp.dll
+ ===============================================
+ Current level = 2
+ Execution time = 21971 ms
+ ===============================================

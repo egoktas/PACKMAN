@@ -1,0 +1,332 @@
+Pin 2.13 kit 61147
+ Instrumenting PE file: C:\Windows\system32\cmd.exe
+ Loaded PE file at [0x4a940000..0x4a98bfff](0x0004c000)
+ Its Entry Point is 0x4a9460dc
+
+ EXEMEMORY   :: insert memory chunk [0x4a940000..0x4a98bfff](0x0004c000) 
+ DLLMGMT     :: load at [0x75390000..0x753d9fff] C:\Windows\system32\KERNELBASE.dll
+ DLLMGMT     :: load at [0x76ee0000..0x76fb3fff] C:\Windows\system32\kernel32.dll
+ DLLMGMT     :: load at [0x771c0000..0x772fbfff] C:\Windows\SYSTEM32\ntdll.dll
+ [T:0|L:1] THREADMGMT  :: new thread with id 0 started; new #threads is 1
+ [T:0|L:1] DLLMGMT     :: load at [0x76e30000..0x76edbfff] C:\Windows\system32\msvcrt.dll
+ [T:0|L:1] DLLMGMT     :: load at [0x72540000..0x72546fff] C:\Windows\system32\WINBRAND.dll
+ [T:0|L:1] DLLMGMT     :: load at [0x756a0000..0x75768fff] C:\Windows\system32\USER32.dll
+ [T:0|L:1] DLLMGMT     :: load at [0x75940000..0x7598dfff] C:\Windows\system32\GDI32.dll
+ [T:0|L:1] DLLMGMT     :: load at [0x77310000..0x77319fff] C:\Windows\system32\LPK.dll
+ [T:0|L:1] DLLMGMT     :: load at [0x75770000..0x7580cfff] C:\Windows\system32\USP10.dll
+ [T:0|L:1] DLLMGMT     :: load at [0x77330000..0x7734efff] C:\Windows\system32\IMM32.DLL
+ [T:0|L:1] DLLMGMT     :: load at [0x75db0000..0x75e7bfff] C:\Windows\system32\MSCTF.dll
+ [T:0|L:1] LIBCALL     :: @0x4a945f5f call dword ptr [0x4a94114c]=0x76f2fe44 kernel32.dll::GetSystemTimeAsFileTime
+ [T:0|L:1] LIBCALL     :: @0x4a945f6b call dword ptr [0x4a941150]=0x76f30d23 kernel32.dll::GetCurrentProcessId
+ [T:0|L:1] LIBCALL     :: @0x4a945f73 call dword ptr [0x4a94120c]=0x76f2f212 kernel32.dll::GetCurrentThreadId
+ [T:0|L:1] LIBCALL     :: @0x4a945f7b call dword ptr [0x4a941154]=0x76f2ef76 kernel32.dll::GetTickCount
+ [T:0|L:1] LIBCALL     :: @0x4a945f87 call dword ptr [0x4a941158]=0x76f2f2a7 kernel32.dll::QueryPerformanceCounter
+ [T:0|L:1] LIBCALL     :: @0x4a946106 call dword ptr [0x4a941170]=0x76f2f23c kernel32.dll::InterlockedCompareExchange
+ [T:0|L:1] LIBCALL     :: @0x4a946380 call dword ptr [0x4a94115c]=0x76f328d7 kernel32.dll::GetModuleHandleA
+ [T:0|L:1] LIBCALL     :: @0x4a94630c call dword ptr [0x4a941020]=0x76e42804 msvcrt.dll::__set_app_type
+ [T:0|L:1] LIBCALL     :: @0x4a946322 call dword ptr [0x4a941024]=0x76e427ce msvcrt.dll::__p__fmode
+ [T:0|L:1] LIBCALL     :: @0x4a946330 call dword ptr [0x4a941028]=0x76e427c3 msvcrt.dll::__p__commode
+ [T:0|L:1] LIBCALL     :: @0x4a94636b call dword ptr [0x4a941014]=0x76e3e1e1 msvcrt.dll::_controlfp
+ [T:0|L:1] LIBCALL     :: @0x4a945f10 call dword ptr [0x4a941160]=0x76f33142 kernel32.dll::SetUnhandledExceptionFilter
+ [T:0|L:1] LIBCALL     :: @0x4a945f1e jmp dword ptr [0x4a941034]=0x76e3c151 msvcrt.dll::_initterm
+ [T:0|L:1] LIBCALL     :: @0x4a945ef7 call dword ptr [0x4a941044]=0x76e42bc0 msvcrt.dll::__getmainargs
+ [T:0|L:1] LIBCALL     :: @0x4a946177 call dword ptr [0x4a941168]=0x76f2f25e kernel32.dll::InterlockedExchange
+ [T:0|L:1] LIBCALL     :: @0x4a944f47 call dword ptr [0x4a94120c]=0x76f2f212 kernel32.dll::GetCurrentThreadId
+ [T:0|L:1] LIBCALL     :: @0x4a944f54 call dword ptr [0x4a941210]=0x76f30d8f kernel32.dll::OpenThread
+ [T:0|L:1] LIBCALL     :: @0x4a945daf call dword ptr [0x4a941298]=0x76f319a1 kernel32.dll::GetModuleHandleW
+ [T:0|L:1] LIBCALL     :: @0x4a945dc9 call dword ptr [0x4a941294]=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x4a941687 call dword ptr [0x4a9640cc]=0x76f32e18 kernel32.dll::SetThreadUILanguage
+ [T:0|L:1] LIBCALL     :: @0x4a944f6a call dword ptr [0x4a941214]=0x76f3c41a kernel32.dll::HeapSetInformation
+ [T:0|L:1] LIBCALL     :: @0x4a945e24 call dword ptr [0x4a941354]=0x76f2f729 kernel32.dll::RegOpenKeyExW
+ [T:0|L:1] LIBCALL     :: @0x4a946025 call ebx=0x76f33104 kernel32.dll::VirtualQuery
+ [T:0|L:1] LIBCALL     :: @0x4a94603f call ebx=0x76f33104 kernel32.dll::VirtualQuery
+ [T:0|L:1] LIBCALL     :: @0x4a94603f call ebx=0x76f33104 kernel32.dll::VirtualQuery
+ [T:0|L:1] LIBCALL     :: @0x4a94603f call ebx=0x76f33104 kernel32.dll::VirtualQuery
+ [T:0|L:1] LIBCALL     :: @0x4a94603f call ebx=0x76f33104 kernel32.dll::VirtualQuery
+ [T:0|L:1] LIBCALL     :: @0x4a94523e call dword ptr [0x4a9412e0]=0x76f32e84 kernel32.dll::GetConsoleOutputCP
+ [T:0|L:1] LIBCALL     :: @0x4a94524f call dword ptr [0x4a9412dc]=0x76f32974 kernel32.dll::GetCPInfo
+ [T:0|L:1] LIBCALL     :: @0x4a941b01 jmp dword ptr [0x4a9410f8]=0x76e39790 msvcrt.dll::memset
+ [T:0|L:1] LIBCALL     :: @0x4a945997 call dword ptr [0x4a941220]=0x7721f8be ntdll.dll::RtlInitializeCriticalSection
+ [T:0|L:1] LIBCALL     :: @0x4a941a35 call dword ptr [0x4a94123c]=0x77206b7e ntdll.dll::RtlEnterCriticalSection
+ [T:0|L:1] LIBCALL     :: @0x4a941a48 call dword ptr [0x4a941240]=0x77206b40 ntdll.dll::RtlLeaveCriticalSection
+ [T:0|L:1] LIBCALL     :: @0x4a9459a9 call dword ptr [0x4a941224]=0x76f3365e kernel32.dll::SetConsoleCtrlHandler
+ [T:0|L:1] LIBCALL     :: @0x4a941600 call esi=0x76e3f2b1 msvcrt.dll::_get_osfhandle
+ [T:0|L:1] LIBCALL     :: @0x4a94160a call edi=0x76f32ed3 kernel32.dll::SetConsoleMode
+ [T:0|L:1] LIBCALL     :: @0x4a941613 call esi=0x76e3f2b1 msvcrt.dll::_get_osfhandle
+ [T:0|L:1] LIBCALL     :: @0x4a94161d call ebx=0x76f31854 kernel32.dll::GetConsoleMode
+ [T:0|L:1] LIBCALL     :: @0x4a94643b call esi=0x76e3f2b1 msvcrt.dll::_get_osfhandle
+ [T:0|L:1] LIBCALL     :: @0x4a94643f call edi=0x76f32ed3 kernel32.dll::SetConsoleMode
+ [T:0|L:1] LIBCALL     :: @0x4a94163a call esi=0x76e3f2b1 msvcrt.dll::_get_osfhandle
+ [T:0|L:1] LIBCALL     :: @0x4a94163e call ebx=0x76f31854 kernel32.dll::GetConsoleMode
+ [T:0|L:1] LIBCALL     :: @0x4a9416a4 call dword ptr [0x4a941324]=0x76f330b7 kernel32.dll::GetEnvironmentStringsW
+ [T:0|L:1] LIBCALL     :: @0x4a9416be call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9416c5 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a941695 jmp dword ptr [0x4a9410b4]=0x76e39910 msvcrt.dll::memcpy
+ [T:0|L:1] LIBCALL     :: @0x4a9416dd call dword ptr [0x4a941320]=0x76f330d4 kernel32.dll::FreeEnvironmentStringsW
+ [T:0|L:1] LIBCALL     :: @0x4a943a73 call esi=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a943a76 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9416a4 call dword ptr [0x4a941324]=0x76f330b7 kernel32.dll::GetEnvironmentStringsW
+ [T:0|L:1] LIBCALL     :: @0x4a9416be call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9416c5 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a941695 jmp dword ptr [0x4a9410b4]=0x76e39910 msvcrt.dll::memcpy
+ [T:0|L:1] LIBCALL     :: @0x4a9416dd call dword ptr [0x4a941320]=0x76f330d4 kernel32.dll::FreeEnvironmentStringsW
+ [T:0|L:1] LIBCALL     :: @0x4a94559e call dword ptr [0x4a941354]=0x76f2f729 kernel32.dll::RegOpenKeyExW
+ [T:0|L:1] LIBCALL     :: @0x4a9455d9 call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a94560a call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a945652 call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a945683 call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a9456ca call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a94572b call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a9457b7 call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a9457c7 call dword ptr [0x4a941348]=0x76f2f9d0 kernel32.dll::RegCloseKey
+ [T:0|L:1] LIBCALL     :: @0x4a94559e call dword ptr [0x4a941354]=0x76f2f729 kernel32.dll::RegOpenKeyExW
+ [T:0|L:1] LIBCALL     :: @0x4a9455d9 call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a94560a call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a945652 call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a945683 call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a9456ca call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a94572b call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a9457b7 call edi=0x76f2fcf1 kernel32.dll::RegQueryValueExW
+ [T:0|L:1] LIBCALL     :: @0x4a9457c7 call dword ptr [0x4a941348]=0x76f2f9d0 kernel32.dll::RegCloseKey
+ [T:0|L:1] LIBCALL     :: @0x4a9457e1 call dword ptr [0x4a941084]=0x76e3f708 msvcrt.dll::time
+ [T:0|L:1] LIBCALL     :: @0x4a9457e8 call dword ptr [0x4a941088]=0x76e3f757 msvcrt.dll::srand
+ [T:0|L:1] LIBCALL     :: @0x4a9459c8 call esi=0x76f3ecab kernel32.dll::GetCommandLineW
+ [T:0|L:1] LIBCALL     :: @0x4a9459eb call esi=0x76f3ecab kernel32.dll::GetCommandLineW
+ [T:0|L:1] LIBCALL     :: @0x4a943ac4 call dword ptr [0x4a9411b4]=0x76f3356f kernel32.dll::GetCurrentDirectoryW
+ [T:0|L:1] LIBCALL     :: @0x4a9418cb call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9418d2 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a94548f call dword ptr [0x4a941230]=0x76f329f4 kernel32.dll::GetModuleFileNameW
+ [T:0|L:1] LIBCALL     :: @0x4a94194f call dword ptr [0x4a94133c]=0x76f32dfd kernel32.dll::GetEnvironmentVariableW
+ [T:0|L:1] LIBCALL     :: @0x4a94194f call dword ptr [0x4a94133c]=0x76f32dfd kernel32.dll::GetEnvironmentVariableW
+ [T:0|L:1] LIBCALL     :: @0x4a94194f call dword ptr [0x4a94133c]=0x76f32dfd kernel32.dll::GetEnvironmentVariableW
+ [T:0|L:1] LIBCALL     :: @0x4a94194f call dword ptr [0x4a94133c]=0x76f32dfd kernel32.dll::GetEnvironmentVariableW
+ [T:0|L:1] LIBCALL     :: @0x4a94194f call dword ptr [0x4a94133c]=0x76f32dfd kernel32.dll::GetEnvironmentVariableW
+ [T:0|L:1] LIBCALL     :: @0x4a942c0d call ebx=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a942c21 call ebx=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a942c35 call ebx=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a942c49 call ebx=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a942c5d call ebx=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a942c71 call ebx=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a942d28 call ebx=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a9418cb call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9418d2 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a944d43 call dword ptr [0x4a9411b4]=0x76f3356f kernel32.dll::GetCurrentDirectoryW
+ [T:0|L:1] LIBCALL     :: @0x4a944d55 call esi=0x76e3f670 msvcrt.dll::towupper
+ [T:0|L:1] LIBCALL     :: @0x4a944d6b call dword ptr [0x4a9410a8]=0x76e3c136 msvcrt.dll::iswalpha
+ [T:0|L:1] LIBCALL     :: @0x4a944d8a call esi=0x76e3f670 msvcrt.dll::towupper
+ [T:0|L:1] LIBCALL     :: @0x4a944dae call dword ptr [0x4a9412f8]=0x76f319d1 kernel32.dll::GetFullPathNameW
+ [T:0|L:1] LIBCALL     :: @0x4a944e33 call esi=0x76f313ce kernel32.dll::GetFileAttributesW
+ [T:0|L:1] LIBCALL     :: @0x4a943961 call dword ptr [0x4a9412f4]=0x76f3105a kernel32.dll::FindFirstFileW
+ [T:0|L:1] LIBCALL     :: @0x4a943974 call dword ptr [0x4a9412ec]=0x76f3351a kernel32.dll::FindClose
+ [T:0|L:1] LIBCALL     :: @0x4a941695 jmp dword ptr [0x4a9410b4]=0x76e39910 msvcrt.dll::memcpy
+ [T:0|L:1] LIBCALL     :: @0x4a943961 call dword ptr [0x4a9412f4]=0x76f3105a kernel32.dll::FindFirstFileW
+ [T:0|L:1] LIBCALL     :: @0x4a943974 call dword ptr [0x4a9412ec]=0x76f3351a kernel32.dll::FindClose
+ [T:0|L:1] LIBCALL     :: @0x4a941695 jmp dword ptr [0x4a9410b4]=0x76e39910 msvcrt.dll::memcpy
+ [T:0|L:1] LIBCALL     :: @0x4a943961 call dword ptr [0x4a9412f4]=0x76f3105a kernel32.dll::FindFirstFileW
+ [T:0|L:1] LIBCALL     :: @0x4a943974 call dword ptr [0x4a9412ec]=0x76f3351a kernel32.dll::FindClose
+ [T:0|L:1] LIBCALL     :: @0x4a941695 jmp dword ptr [0x4a9410b4]=0x76e39910 msvcrt.dll::memcpy
+ [T:0|L:1] LIBCALL     :: @0x4a943961 call dword ptr [0x4a9412f4]=0x76f3105a kernel32.dll::FindFirstFileW
+ [T:0|L:1] LIBCALL     :: @0x4a943974 call dword ptr [0x4a9412ec]=0x76f3351a kernel32.dll::FindClose
+ [T:0|L:1] LIBCALL     :: @0x4a943a4a call dword ptr [0x4a941108]=0x76e3aae3 msvcrt.dll::_wcsnicmp
+ [T:0|L:1] LIBCALL     :: @0x4a941695 jmp dword ptr [0x4a9410b4]=0x76e39910 msvcrt.dll::memcpy
+ [T:0|L:1] LIBCALL     :: @0x4a943961 call dword ptr [0x4a9412f4]=0x76f3105a kernel32.dll::FindFirstFileW
+ [T:0|L:1] LIBCALL     :: @0x4a943974 call dword ptr [0x4a9412ec]=0x76f3351a kernel32.dll::FindClose
+ [T:0|L:1] LIBCALL     :: @0x4a941695 jmp dword ptr [0x4a9410b4]=0x76e39910 msvcrt.dll::memcpy
+ [T:0|L:1] LIBCALL     :: @0x4a944e6b call esi=0x76f313ce kernel32.dll::GetFileAttributesW
+ [T:0|L:1] LIBCALL     :: @0x4a944ea1 call dword ptr [0x4a9411b8]=0x76f33557 kernel32.dll::SetCurrentDirectoryW
+ [T:0|L:1] LIBCALL     :: @0x4a941761 call dword ptr [0x4a941328]=0x76f330e1 kernel32.dll::SetEnvironmentVariableW
+ [T:0|L:1] LIBCALL     :: @0x4a941771 call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a941778 call dword ptr [0x4a941288]=0x76f2f198 kernel32.dll::HeapFree
+ [T:0|L:1] LIBCALL     :: @0x4a9416a4 call dword ptr [0x4a941324]=0x76f330b7 kernel32.dll::GetEnvironmentStringsW
+ [T:0|L:1] LIBCALL     :: @0x4a9416be call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9416c5 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a941695 jmp dword ptr [0x4a9410b4]=0x76e39910 msvcrt.dll::memcpy
+ [T:0|L:1] LIBCALL     :: @0x4a9416dd call dword ptr [0x4a941320]=0x76f330d4 kernel32.dll::FreeEnvironmentStringsW
+ [T:0|L:1] LIBCALL     :: @0x4a943ac4 call dword ptr [0x4a9411b4]=0x76f3356f kernel32.dll::GetCurrentDirectoryW
+ [T:0|L:1] LIBCALL     :: @0x4a941415 call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a94141c call dword ptr [0x4a941288]=0x76f2f198 kernel32.dll::HeapFree
+ [T:0|L:1] LIBCALL     :: @0x4a9418cb call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9418d2 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a945302 call dword ptr [0x4a9410c4]=0x76e3ad52 msvcrt.dll::towlower
+ [T:0|L:1] LIBCALL     :: @0x4a9418cb call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9418d2 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a942cc9 call dword ptr [0x4a9410f4]=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a942cc9 call dword ptr [0x4a9410f4]=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a941415 call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a94141c call dword ptr [0x4a941288]=0x76f2f198 kernel32.dll::HeapFree
+ [T:0|L:1] LIBCALL     :: @0x4a945a41 call dword ptr [0x4a9412e0]=0x76f32e84 kernel32.dll::GetConsoleOutputCP
+ [T:0|L:1] LIBCALL     :: @0x4a945a52 call dword ptr [0x4a9412dc]=0x76f32974 kernel32.dll::GetCPInfo
+ [T:0|L:1] LIBCALL     :: @0x4a94519d call dword ptr [0x4a9412fc]=0x76f315ab kernel32.dll::GetUserDefaultLCID
+ [T:0|L:1] LIBCALL     :: @0x4a945b81 call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945ba0 call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945c01 call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945c41 call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945c6b call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945c84 call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945c9d call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945cb6 call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945ccf call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945ce8 call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945d01 call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945d1a call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945d36 call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945d4f call esi=0x76f3354a kernel32.dll::GetLocaleInfoW
+ [T:0|L:1] LIBCALL     :: @0x4a945d60 call dword ptr [0x4a9410cc]=0x76e45286 msvcrt.dll::setlocale
+ [T:0|L:1] LIBCALL     :: @0x4a945a65 call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a945a6c call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a945a7d call dword ptr [0x4a94126c]=0x76f3f333 kernel32.dll::GetConsoleTitleW
+ [T:0|L:1] LIBCALL     :: @0x4a945aa5 call dword ptr [0x4a941298]=0x76f319a1 kernel32.dll::GetModuleHandleW
+ [T:0|L:1] LIBCALL     :: @0x4a945abc call esi=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x4a945ace call esi=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x4a945ae0 call esi=0x76f31837 kernel32.dll::GetProcAddress
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941a35 call dword ptr [0x4a94123c]=0x77206b7e ntdll.dll::RtlEnterCriticalSection
+ [T:0|L:1] LIBCALL     :: @0x4a941a48 call dword ptr [0x4a941240]=0x77206b40 ntdll.dll::RtlLeaveCriticalSection
+ [T:0|L:1] LIBCALL     :: @0x4a9418cb call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9418d2 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a941415 call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a94141c call dword ptr [0x4a941288]=0x76f2f198 kernel32.dll::HeapFree
+ [T:0|L:1] LIBCALL     :: @0x4a941d79 call dword ptr [0x4a9410f4]=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a9423c9 call ebx=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a942157 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a9423c9 call ebx=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a942157 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a9423c9 call ebx=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a942157 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a9423c9 call ebx=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a942157 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a9423c9 call ebx=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a942157 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a9421db call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a942675 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a942498 call esi=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a9424aa call esi=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a9424bc call esi=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a9424ce call esi=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a9424e0 call esi=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a9424f2 call esi=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a9418cb call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9418d2 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9418cb call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9418d2 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941dd7 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a942675 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941d79 call dword ptr [0x4a9410f4]=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a941dd7 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a942675 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941d79 call dword ptr [0x4a9410f4]=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a941dd7 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941d79 call dword ptr [0x4a9410f4]=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a941dd7 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941d79 call dword ptr [0x4a9410f4]=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a941dd7 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941d79 call dword ptr [0x4a9410f4]=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a941dd7 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941bc6 jmp dword ptr [0x4a941094]=0x76e3edef msvcrt.dll::_setjmp3
+ [T:0|L:1] LIBCALL     :: @0x4a941d79 call dword ptr [0x4a9410f4]=0x76e3aacb msvcrt.dll::iswspace
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a941dd7 call dword ptr [0x4a941008]=0x76e3c02c msvcrt.dll::iswdigit
+ [T:0|L:1] LIBCALL     :: @0x4a942291 call dword ptr [0x4a94126c]=0x76f3f333 kernel32.dll::GetConsoleTitleW
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a944710 call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a944710 call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a944710 call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a944710 call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a944710 call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a944710 call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a944710 call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a944710 call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a944710 call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a944710 call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a944710 call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a944710 call dword ptr [0x4a94110c]=0x76e3a9e9 msvcrt.dll::_wcsicmp
+ [T:0|L:1] LIBCALL     :: @0x4a9418cb call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9418d2 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9418cb call dword ptr [0x4a94128c]=0x76f2f24c kernel32.dll::GetProcessHeap
+ [T:0|L:1] LIBCALL     :: @0x4a9418d2 call dword ptr [0x4a9412a0]=0x7721209d ntdll.dll::RtlAllocateHeap
+ [T:0|L:1] LIBCALL     :: @0x4a95bcc3 call dword ptr [0x4a9412c4]=0x76f318aa kernel32.dll::GetStdHandle
+ [T:0|L:1] LIBCALL     :: @0x4a944a3c call dword ptr [0x4a941090]=0x76e3f2b1 msvcrt.dll::_get_osfhandle
+ [T:0|L:1] LIBCALL     :: @0x4a944a4b call dword ptr [0x4a9412c8]=0x76f31c42 kernel32.dll::GetFileType
+ [T:0|L:1] LIBCALL     :: @0x4a944a77 call dword ptr [0x4a9412c4]=0x76f318aa kernel32.dll::GetStdHandle
+ [T:0|L:1] LIBCALL     :: @0x4a944a84 call dword ptr [0x4a941334]=0x76f31854 kernel32.dll::GetConsoleMode
+ [T:0|L:1] LIBCALL     :: @0x4a949efb call dword ptr [0x4a941090]=0x76e3f2b1 msvcrt.dll::_get_osfhandle
+ [T:0|L:1] LIBCALL     :: @0x4a949f09 call dword ptr [0x4a9412c0]=0x76f2cb3a kernel32.dll::GetConsoleScreenBufferInfo
+ [T:0|L:1] LIBCALL     :: @0x4a949fff call edi=0x76f2b65c kernel32.dll::FormatMessageW
+ [T:0|L:1] LIBCALL     :: @0x4a9418a7 call dword ptr [0x4a9410ec]=0x76e3aa61 msvcrt.dll::wcschr
+ [T:0|L:1] LIBCALL     :: @0x4a94a056 call edi=0x76f2b65c kernel32.dll::FormatMessageW
+ [T:0|L:1] LIBCALL     :: @0x4a949f7f call dword ptr [0x4a9412b0]=0x76f2afeb kernel32.dll::WriteConsoleW
+ [T:0|L:1] LIBCALL     :: @0x4a943bdd call dword ptr [0x4a941090]=0x76e3f2b1 msvcrt.dll::_get_osfhandle
+ [T:0|L:1] LIBCALL     :: @0x4a943be7 call dword ptr [0x4a9412c8]=0x76f31c42 kernel32.dll::GetFileType
+ [T:0|L:1] LIBCALL     :: @0x4a94465f call dword ptr [0x4a9412c4]=0x76f318aa kernel32.dll::GetStdHandle
+ [T:0|L:1] LIBCALL     :: @0x4a94466c call dword ptr [0x4a941334]=0x76f31854 kernel32.dll::GetConsoleMode
+ [T:0|L:1] LIBCALL     :: @0x4a95bcf2 call dword ptr [0x4a9412d8]=0x76f8d9e9 kernel32.dll::FlushConsoleInputBuffer
+ [T:0|L:1] LIBCALL     :: @0x4a95bcf8 call dword ptr [0x4a941004]=0x76e8f719 msvcrt.dll::_getch
+ [T:0|L:1] LIBCALL     :: @0x4a947329 call dword ptr [0x4a941010]=0x76e3bbce msvcrt.dll::_vsnwprintf
+ [T:0|L:1] LIBCALL     :: @0x4a944a3c call dword ptr [0x4a941090]=0x76e3f2b1 msvcrt.dll::_get_osfhandle
+ [T:0|L:1] LIBCALL     :: @0x4a944a4b call dword ptr [0x4a9412c8]=0x76f31c42 kernel32.dll::GetFileType
+ [T:0|L:1] LIBCALL     :: @0x4a944a77 call dword ptr [0x4a9412c4]=0x76f318aa kernel32.dll::GetStdHandle
+ [T:0|L:1] LIBCALL     :: @0x4a944a84 call dword ptr [0x4a941334]=0x76f31854 kernel32.dll::GetConsoleMode
+ [T:0|L:1] LIBCALL     :: @0x4a94869c call dword ptr [0x4a941090]=0x76e3f2b1 msvcrt.dll::_get_osfhandle
+ [T:0|L:1] LIBCALL     :: @0x4a9486a4 call dword ptr [0x4a9412b0]=0x76f2afeb kernel32.dll::WriteConsoleW
+ [T:0|L:1] LIBCALL     :: @0x4a941600 call esi=0x76e3f2b1 msvcrt.dll::_get_osfhandle
+ [T:0|L:1] LIBCALL     :: @0x4a94160a call edi=0x76f32ed3 kernel32.dll::SetConsoleMode
+ [T:0|L:1] LIBCALL     :: @0x4a941613 call esi=0x76e3f2b1 msvcrt.dll::_get_osfhandle
+ [T:0|L:1] LIBCALL     :: @0x4a94161d call ebx=0x76f31854 kernel32.dll::GetConsoleMode
+ [T:0|L:1] LIBCALL     :: @0x4a94163a call esi=0x76e3f2b1 msvcrt.dll::_get_osfhandle
+ [T:0|L:1] LIBCALL     :: @0x4a94163e call ebx=0x76f31854 kernel32.dll::GetConsoleMode
+ [T:0|L:1] LIBCALL     :: @0x4a94166d call eax=0x76f33004 kernel32.dll::SetConsoleInputExeNameW
+ [T:0|L:1] LIBCALL     :: @0x4a945008 call dword ptr [0x4a9412e0]=0x76f32e84 kernel32.dll::GetConsoleOutputCP
+ [T:0|L:1] LIBCALL     :: @0x4a945019 call esi=0x76f32974 kernel32.dll::GetCPInfo
+ [T:0|L:1] LIBCALL     :: @0x4a941687 call dword ptr [0x4a9640cc]=0x76f32e18 kernel32.dll::SetThreadUILanguage
+ [T:0|L:1] LIBCALL     :: @0x4a943b7c call dword ptr [0x4a941000]=0x76e436aa msvcrt.dll::exit
+ [T:0|L:1] THREADMGMT  :: thread with id 0 stopped; new #threads is 1
+ DLLMGMT     :: remove at [0x75390000..0x753d9fff] C:\Windows\system32\KERNELBASE.dll
+ DLLMGMT     :: remove at [0x76ee0000..0x76fb3fff] C:\Windows\system32\kernel32.dll
+ DLLMGMT     :: remove at [0x771c0000..0x772fbfff] C:\Windows\SYSTEM32\ntdll.dll
+ DLLMGMT     :: remove at [0x76e30000..0x76edbfff] C:\Windows\system32\msvcrt.dll
+ DLLMGMT     :: remove at [0x72540000..0x72546fff] C:\Windows\system32\WINBRAND.dll
+ DLLMGMT     :: remove at [0x756a0000..0x75768fff] C:\Windows\system32\USER32.dll
+ DLLMGMT     :: remove at [0x75940000..0x7598dfff] C:\Windows\system32\GDI32.dll
+ DLLMGMT     :: remove at [0x77310000..0x77319fff] C:\Windows\system32\LPK.dll
+ DLLMGMT     :: remove at [0x75770000..0x7580cfff] C:\Windows\system32\USP10.dll
+ DLLMGMT     :: remove at [0x77330000..0x7734efff] C:\Windows\system32\IMM32.DLL
+ DLLMGMT     :: remove at [0x75db0000..0x75e7bfff] C:\Windows\system32\MSCTF.dll
+ ===============================================
+ Current level = 1
+ Execution time = 11466 ms
+ ===============================================

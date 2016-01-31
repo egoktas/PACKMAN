@@ -1,0 +1,58 @@
+# PREDEFINED:
+# - TOOL_NAME
+# - EXE_FILE
+# - EXE_FILE_NAME_NO_EXT
+# - TIMESTAMP
+# - WF_ROOT
+# - PIN_ROOT
+
+SRC_DIR			= $(WF_ROOT)\src
+LOG_DIR			= $(WF_ROOT)\out
+
+PIN_EXE       	= $(PIN_ROOT)\pin.exe
+PIN_TOOLS_DIR 	= $(PIN_ROOT)\source\tools
+
+EXE_LOG_PATH	= $(LOG_DIR)\$(TIMESTAMP)_$(EXE_FILE_NAME_NO_EXT)
+TOOL_LOG_FILE	= $(EXE_LOG_PATH)\tool_procID_0.log
+PIN_LOG_FILE	= $(EXE_LOG_PATH)\pin_procID_0.log
+
+TOOL_CPP		= $(SRC_DIR)\$(TOOL_NAME).cpp
+TOOL_O			= $(SRC_DIR)\$(TOOL_NAME).o
+TOOL_DLL 		= $(SRC_DIR)\$(TOOL_NAME).dll
+
+PIN_OPTIONS 	= -follow_execv -smc_strict -logfile $(PIN_LOG_FILE) 
+PIN_TOOL		= -t $(TOOL_DLL)
+TOOL_OPTIONS	= -logfile $(TOOL_LOG_FILE) -ts $(TIMESTAMP) -pin_path_32 $(PIN_EXE) -process_id 0 -exe_log_path $(EXE_LOG_PATH) -tool_dll_file $(TOOL_DLL) -tool_name $(TOOL_NAME)
+
+$(TOOL_NAME) : $(EXE_FILE) $(TOOL_DLL) $(EXE_LOG_PATH)
+	$(PIN_EXE) $(PIN_OPTIONS) $(PIN_TOOL) $(TOOL_OPTIONS) -- $(EXE_FILE)
+
+$(TOOL_DLL) : $(TOOL_O)
+	link /debug /DLL /EXPORT:main /NODEFAULTLIB  /NOLOGO /INCREMENTAL:NO  /OPT:REF  /MACHINE:x86 \
+	 /ENTRY:Ptrace_DllMainCRTStartup@12 /BASE:0x55000000   \
+	 /LIBPATH:$(PIN_ROOT)\ia32\lib \
+	 /LIBPATH:$(PIN_ROOT)\ia32\lib-ext \
+	 /LIBPATH:$(PIN_ROOT)\extras\xed2-ia32\lib \
+	 /IMPLIB:$(TOOL_O:.o=.lib) \
+	 /PDB:$(TOOL_O:.o=.pdb) \
+	 /OUT:$(TOOL_DLL) $(TOOL_O) \
+	 pin.lib libxed.lib libcpmt.lib libcmt.lib pinvm.lib kernel32.lib ntdll-32.lib	
+ 
+$(TOOL_O) : $(TOOL_CPP) $(SRC_DIR)
+	cl /c /MT /EHs- /EHa- /wd4530 /Z7 \
+	 /DTARGET_WINDOWS /DBIGARRAY_MULTIPLIER=1 /DUSING_XED /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0 \
+	 /nologo /Gy /O2 /DTARGET_IA32 /DHOST_IA32 \
+	 /I$(PIN_ROOT)\source\include\pin \
+	 /I$(PIN_ROOT)\source\include\pin\gen \
+	 /I$(PIN_ROOT)\source\tools\InstLib \
+	 /I$(PIN_ROOT)\extras\xed2-ia32\include \
+	 /I$(PIN_ROOT)\extras\components\include \
+	 /Fo$(TOOL_O) $(TOOL_CPP)
+	 
+$(EXE_LOG_PATH) : $(LOG_DIR)
+	md $(EXE_LOG_PATH)
+
+clean :
+	del $(SRC_DIR)\$(TOOL_NAME).dll $(SRC_DIR)\$(TOOL_NAME).exp $(SRC_DIR)\$(TOOL_NAME).lib $(SRC_DIR)\$(TOOL_NAME).o $(SRC_DIR)\$(TOOL_NAME).pdb
+	
+	
