@@ -1,6 +1,6 @@
 Packed Malware Analyzer (PACKMAN) is licensed under the MIT License. See LICENSE.txt
 
-! Be aware that PACKMAN will run the executable being analyzed.
+! Beware that PACKMAN will run the executable being analyzed.
 ! Take precautions before running a malware under PACKMAN.
 ! Best practice is to run PACKMAN in a Virtual Machine.
 
