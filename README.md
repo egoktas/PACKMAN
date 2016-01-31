@@ -1,2 +1,0 @@
-# PACKMAN
-Packed Malware Analyzer
