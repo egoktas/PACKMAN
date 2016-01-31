@@ -11,7 +11,6 @@
 #include <sstream>		// String STREAM
 #include <algorithm>	// transform() string
 #include "pin.H"		// PIN
-// source http://www.cplusplus.com/reference/ctime/clock/ 
 #include <stdio.h>      // sprintf 
 #include <time.h>       // clock_t, clock, CLOCKS_PER_SEC 
 #include <math.h>       // sqrt 
